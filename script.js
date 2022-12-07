@@ -25,9 +25,9 @@ window.addEventListener("load", function() {
     let list = document.getElementById("faultyItems");
     
     form.addEventListener("submit", function(event) {
- 
+        
         event.preventDefault();
- 
+        
         let pilot = document.getElementById("PilotName").value;       
         let copilot = document.getElementById("copilotName").value;       
         let fuelLevel = document.getElementById("fuelLevel").value;       
